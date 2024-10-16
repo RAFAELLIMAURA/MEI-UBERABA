@@ -106,27 +106,5 @@
         <a href="https://wa.me/5534988507154?text=Ol%C3%A1+obrigado+por+entrar+em+contato%2C+estou+a+disposi%C3%A7%C3%A3o+para+prestar+servi%C3%A7os+para+o+Microempreendedor+Individual" class="button"><strong>Preciso de ajuda profissional</strong></a>
       </div>
     </div>
-      <div class="container">
-      <h1>Faça sua contribuição via Pix</h1>
-      <p class="pix-key" id="pixKey"></p> <!-- Chave Pix aqui -->
-
-      <button class="button" onclick="copyPixKey()">c4a3d6ab-df3c-4ea7-a654-6d90bc8cb27f
-</button>
-
-      <p class="message" id="copyMessage"></p>
-    </div>
-
-    <script>
-      function copyPixKey() {
-        var pixKey = document.getElementById("pixKey").innerText;
-        var tempInput = document.createElement("input");
-        tempInput.value = pixKey;
-        document.body.appendChild(tempInput);
-        tempInput.select();
-        document.execCommand("copy");
-        document.body.removeChild(tempInput);
-        document.getElementById("copyMessage").innerText = "Chave Pix copiada!";
-      }
-    </script>
-  </body>
+</body>
 </html>
