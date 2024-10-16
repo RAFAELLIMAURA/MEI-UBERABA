@@ -69,4 +69,41 @@
     <div class="container">
       <h1>Auxilio ao Microempreendedor Individual</h1>
 
+      <!-- Container dos botões para organizar dois por linha -->
+      <div class="button-container">
+        <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei" class="button"><strong>Abertura do MEI</strong></a>
+        <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/baixa-de-mei" class="button"><strong>Baixa do MEI</strong></a>
+        <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/atualizacao-cadastral-de-mei" class="button"><strong>Alteração do MEI</strong></a>
+        <a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/Identificacao" class="button"><strong>Emissão do DAS</strong></a>
+        <a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/dasnsimei.app/Identificacao" class="button"><strong>Declaração do Imposto MEI</strong></a>
+        <span href="http://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=19" class="button"><strong>Negociação MEI <p Entre em contato </p></strong></span>
+      </div>
       
+ <h1>Serviço de Consultoria</h1>
+      <div class="button-container">
+        <a href="https://wa.me/5534988507154?text=Ol%C3%A1+preciso+de+auxilio+com+minha+empresa" class="button"><strong>Preciso de ajuda profissional</strong></a>
+    </div>
+   
+      <h1>Regularização Município de Uberaba</h1>
+
+      <div class="button-container">
+        <span href="http://www.uberaba.mg.gov.br/consultaPrevia/pages/page-login.xhtml?uri=/pages/page-main.xhtml" class="button"><strong>Consulta Prévia Uberaba <p Entre em contato </p></strong></span>
+        <span href="https://app.codiub.com.br/alvaras/pages/page-login.xhtml" class="button"><strong>Emissão do Alvará Uberaba <p Entre em contato</p></strong></span>
+        <a href="http://www.uberaba.mg.gov.br/portal/conteudo,43298" class="button"><strong>Consulta Declaração de Número</strong></a>
+      </div>
+
+      <h1>Certidões Negativas</h1>
+
+      <div class="button-container">
+        <a href="https://iptu.uberaba.mg.gov.br/tributos/cnd/cnd.php" class="button"><strong>Certidão Negativa Uberaba</strong></a>
+        <a href="https://solucoes.receita.fazenda.gov.br/servicos/certidaointernet/pj/emitir" class="button"><strong>Certidão Negativa Federal</strong></a>
+        <a href="https://www2.fazenda.mg.gov.br/sol/ctrl/SOL/CDT/SERVICO_829?ACAO=INICIAR" class="button"><strong>Certidão Negativa Estadual-MG</strong></a>
+        <a href="https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf" class="button"><strong>Consulta Regularidade Empregador</strong></a>
+      </div>
+
+      <h1>Emissor de Nota Fiscal MEI</h1>
+      <div class="button-container">
+        <span href="https://www.nfse.gov.br/EmissorNacional/Login?ReturnUrl=%2fEmissorNacional" class="button"><strong>Emissor de Nota Fiscal de Serviço MEI <p Entre em contato </p></strong></span>
+      </div>
+
+    
