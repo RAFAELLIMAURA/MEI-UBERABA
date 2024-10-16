@@ -140,6 +140,8 @@
         <a href="https://www2.fazenda.mg.gov.br/sol/ctrl/SOL/CDT/SERVICO_829?ACAO=INICIAR" class="button"><strong>Certidão Negativa Estadual-MG</strong></a>
            <a href="https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf" class="button"><strong>Consulta Regularidade Empregador</strong></a>
            
+          <h1>Emissor de Nota Fiscal MEI</h1>
+           <a href="https://www.nfse.gov.br/EmissorNacional/Login?ReturnUrl=%2fEmissorNacional"class="button"><strong>Emissor de Nota Fiscal de Serviço MEI</strong></a> 
                      
            <h1>Consultoria MEI</h1>
            
