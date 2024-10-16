@@ -49,7 +49,7 @@
       transition: background-color 0.3s ease-in-out;
       width: 48%; /* Ajusta a largura para caber dois botões lado a lado */
       box-sizing: border-box;
-      font-size: 12px; /* Reduz o tamanho da fonte */
+      font-size: 14px; /* Reduz o tamanho da fonte */
     }
 
     .button:hover {
