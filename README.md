@@ -76,7 +76,7 @@
         <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/atualizacao-cadastral-de-mei" class="button"><strong>Alteração do MEI</strong></a>
         <a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/Identificacao" class="button"><strong>Emissão do DAS</strong></a>
         <a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/dasnsimei.app/Identificacao" class="button"><strong>Declaração do Imposto MEI</strong></a>
-        <span href="http://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=19" class="button"><strong>Negociação MEI <p Entre em contato </p></strong></span>
+        <span href="http://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=19" class="button"><strong>Negociação MEI  Entre em contato </strong></span>
       </div>
       
  <h1>Serviço de Consultoria</h1>
@@ -87,8 +87,8 @@
       <h1>Regularização Município de Uberaba</h1>
 
       <div class="button-container">
-        <span href="http://www.uberaba.mg.gov.br/consultaPrevia/pages/page-login.xhtml?uri=/pages/page-main.xhtml" class="button"><strong>Consulta Prévia Uberaba <p Entre em contato </p></strong></span>
-        <span href="https://app.codiub.com.br/alvaras/pages/page-login.xhtml" class="button"><strong>Emissão do Alvará Uberaba <p Entre em contato</p></strong></span>
+        <span href="http://www.uberaba.mg.gov.br/consultaPrevia/pages/page-login.xhtml?uri=/pages/page-main.xhtml" class="button"><strong>Consulta Prévia Uberaba  Entre em contato </strong></span>
+        <span href="https://app.codiub.com.br/alvaras/pages/page-login.xhtml" class="button"><strong>Emissão do Alvará Uberaba  Entre em contato </strong></span>
         <a href="http://www.uberaba.mg.gov.br/portal/conteudo,43298" class="button"><strong>Consulta Declaração de Número</strong></a>
       </div>
 
@@ -103,7 +103,7 @@
 
       <h1>Emissor de Nota Fiscal MEI</h1>
       <div class="button-container">
-        <span href="https://www.nfse.gov.br/EmissorNacional/Login?ReturnUrl=%2fEmissorNacional" class="button"><strong>Emissor de Nota Fiscal de Serviço MEI <p Entre em contato </p></strong></span>
+        <span href="https://www.nfse.gov.br/EmissorNacional/Login?ReturnUrl=%2fEmissorNacional" class="button"><strong>Emissor de Nota Fiscal de Serviço MEI  Entre em contato </strong></span>
       </div>
 
     
