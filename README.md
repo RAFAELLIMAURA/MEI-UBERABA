@@ -67,7 +67,7 @@
 
   <body>
     <div class="container">
-      <h1>Auxilio ao Microempreendedor Individual</h1>
+      <h2>Auxilio ao Microempreendedor Individual</h2>
 
       <!-- Container dos botões para organizar dois por linha -->
       <div class="button-container">
@@ -79,12 +79,12 @@
         <a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=19" class="button"><strong>Negociação MEI  Entre em contato </strong></a>
       </div>
       
- <h1>Serviço de Consultoria </h1>
+ <h2>Serviço de Consultoria </h2>
       <div class="button-container">
         <a href="https://wa.me/5534988507154?text=Ol%C3%A1+preciso+de+auxilio+com+minha+empresa" class="button"><strong>Preciso de ajuda profissional</strong></a>
     </div>
    
-      <h1>Regularização Município de Uberaba</h1>
+      <h2>Regularização Município de Uberaba</h2>
 
       <div class="button-container">
         <a href="http://www.uberaba.mg.gov.br/consultaPrevia/pages/page-login.xhtml?uri=/pages/page-main.xhtml" class="button"><strong>Consulta Prévia Uberaba </strong></a>
@@ -92,7 +92,7 @@
         <a href="http://www.uberaba.mg.gov.br/portal/conteudo,43298" class="button"><strong>Consulta Declaração de Número</strong></a>
       </div>
 
-      <h1>Certidões Negativas</h1>
+      <h2>Certidões Negativas</h2>
 
       <div class="button-container">
         <a href="https://iptu.uberaba.mg.gov.br/tributos/cnd/cnd.php" class="button"><strong>Certidão Negativa Uberaba</strong></a>
@@ -101,7 +101,7 @@
         <a href="https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf" class="button"><strong>Consulta Regularidade Empregador</strong></a>
       </div>
 
-      <h1>Emissor de Nota Fiscal MEI</h1>
+      <h2>Emissor de Nota Fiscal MEI</h2>
       <div class="button-container">
         <a href="https://www.nfse.gov.br/EmissorNacional/Login?ReturnUrl=%2fEmissorNacional" class="button"><strong>Emissor de Nota Fiscal de Serviço MEI </strong></a>
       </div>
