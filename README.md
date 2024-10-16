@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ajuda ao Microempreendedor Individual</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="script.js"></script>
-</head>
-<style>
+    <title>Ajuda ao Microempreendedor Individual</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <style>
     body {
       background-color: rgb(0, 255, 68);
       color: rgb(38, 0, 255);
@@ -14,56 +14,23 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-  }
-  .dot {
-      position: absolute;
-      top: -50px;
-      border-radius: 50%;
-      background-color: rgb(255, 255, 255);
-      animation: dots 6s linear infinite;
-  }
-  .dot:nth-child(1) {
-      left: 25%;
-      width: 30px;
-      height: 30px;
-      animation-delay: 0s;
-  }
-  .dot:nth-child(2) {
-      left: 50%;
-      width: 20px;
-      height: 20px;
-      animation-delay: -1.5s;
-  }
-  .dot:nth-child(3) {
-      left: 75%;
-      width: 15px;
-      height: 15px;
-      animation-delay: -3s;
-  }
-  @keyframes dots {
-      0% {
-          transform: translateY(0);
-          opacity: 1;
-      }
-      100% {
-          transform: translateY(600px);
-          opacity: 0;
-      }
-  }
-  #login-form {
-      display: flex;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
       flex-direction: column;
-      align-items: center;
-      margin-top: 20px;
-  }
+    }
 
-  .container {
+    .container {
       background-color: rgb(247, 228, 20);
       padding: 20px;
-      border-radius: 80px;
-      text-align: center;
-  }
-  input[type="submit"] {
+      border-radius: 20px;
+      width: 90%; /* Ajuste para dispositivos móveis */
+      max-width: 600px; /* Limita o tamanho em telas maiores */
+      margin: 20px;
+    }
+
+    input[type="submit"] {
       background-color: rgb(255, 255, 0);
       color: red;
       border: red;
@@ -72,11 +39,10 @@
       cursor: pointer;
       transition: background-color 0.3s ease-in-out;
       margin-top: 10px;
-      justify-content: center;
-      align-items: center;
-  }
-  
-  .button {
+      width: 100%; /* Deixa o botão responsivo */
+    }
+
+    .button {
       text-decoration: none;
       font-weight: bold;
       color: rgb(255, 255, 255);
@@ -87,15 +53,16 @@
       cursor: pointer;
       transition: background-color 0.3s ease-in-out;
       margin: 10px;
-      display: inline-block;
-  }
+      display: block;
+      width: 100%; /* Faz o botão ocupar toda a largura */
+    }
 
-  .button:hover {
+    .button:hover {
       background-color: rgb(0, 139, 2);
       color: rgb(26, 255, 0);
-  }
+    }
 
-  .circle {
+    .circle {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -104,9 +71,9 @@
       height: 300px;
       border-radius: 50%;
       background-color: rgb(255, 255, 255);
-  }
+    }
 
-  .circle a {
+    .circle a {
       position: absolute;
       display: flex;
       justify-content: center;
@@ -115,38 +82,48 @@
       height: 100px;
       border-radius: 50%;
       background-color: red;
-      color: rgb(255, 255, 25
-  }
-    </style>
+      color: rgb(255, 255, 25);
+    }
 
-  <div class="container">
-    <h1>Ajuda ao Microempreendedor Individual</h1>
+    @media (max-width: 768px) {
+      .container {
+        width: 95%; /* Maior ajuste para telas pequenas */
+        padding: 15px;
+      }
+
+      .button {
+        font-size: 14px; /* Ajusta o tamanho da fonte nos botões */
+        padding: 8px;
+      }
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <h1>Ajuda ao Microempreendedor Individual</h1>
       <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei" class="button"><strong>Abertura do MEI</strong></a>
-        <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/baixa-de-mei" class="button"><strong>Baixa do MEI</strong></a>
-        <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/atualizacao-cadastral-de-mei" class="button"><strong>Alteração do MEI</strong></a>
-        <a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/Identificacao" class="button"><strong>Emissão do DAS</strong></a>
-        <a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/dasnsimei.app/Identificacao" class="button"><strong>Declaração do Imposto MEI</strong></a>
-        <a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=19" class="button"><strong>Negociação MEI</strong></a>
-        <h1>Regularização Municipio de Uberaba</h1>
-        <a href="http://www.uberaba.mg.gov.br/consultaPrevia/pages/page-login.xhtml?uri=/pages/page-main.xhtml" class="button"><strong>Consulta Previa Uberaba</strong></a>
-        <a href="https://app.codiub.com.br/alvaras/pages/page-login.xhtml" class="button"><strong>Emissão do Alvará Uberaba</strong></a>
-        <a href="http://www.uberaba.mg.gov.br/portal/conteudo,43298" class="button"><strong>Consulta Declaração de Numero</strong></a>
-        
-        <h1>Certidões Negativas</h1>
-        
-        <a href="https://iptu.uberaba.mg.gov.br/tributos/cnd/cnd.php" class="button"><strong>Certidão Negativa Uberaba</strong></a>
-        
-        <a href="https://solucoes.receita.fazenda.gov.br/servicos/certidaointernet/pj/emitir" class="button"><strong>Certidão Negativa Federal</strong></a>
-        
-        <a href="https://www2.fazenda.mg.gov.br/sol/ctrl/SOL/CDT/SERVICO_829?ACAO=INICIAR" class="button"><strong>Certidão Negativa Estadual-MG</strong></a>
-           <a href="https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf" class="button"><strong>Consulta Regularidade Empregador</strong></a>
-           
-          <h1>Emissor de Nota Fiscal MEI</h1>
-           <a href="https://www.nfse.gov.br/EmissorNacional/Login?ReturnUrl=%2fEmissorNacional" class="button"><strong>Emissor de Nota Fiscal de Serviço MEI</strong></a> 
-                     
-           <h1>Consultoria MEI</h1>
-           
-           <a href="https://wa.me/5534988507154?text=Ol%C3%A1+obrigado+por+entrar+em+contato%2C+estou+a+disposi%C3%A7%C3%A3o+para+prestar+servi%C3%A7os+para+o+Microempreendedor+Individual" class="button"><strong>Preciso de ajuda profissional</strong></a>
-             
-</div>
+      <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/baixa-de-mei" class="button"><strong>Baixa do MEI</strong></a>
+      <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/atualizacao-cadastral-de-mei" class="button"><strong>Alteração do MEI</strong></a>
+      <a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/Identificacao" class="button"><strong>Emissão do DAS</strong></a>
+      <a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/dasnsimei.app/Identificacao" class="button"><strong>Declaração do Imposto MEI</strong></a>
+      <a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=19" class="button"><strong>Negociação MEI</strong></a>
+
+      <h1>Regularização Município de Uberaba</h1>
+      <a href="http://www.uberaba.mg.gov.br/consultaPrevia/pages/page-login.xhtml?uri=/pages/page-main.xhtml" class="button"><strong>Consulta Prévia Uberaba</strong></a>
+      <a href="https://app.codiub.com.br/alvaras/pages/page-login.xhtml" class="button"><strong>Emissão do Alvará Uberaba</strong></a>
+      <a href="http://www.uberaba.mg.gov.br/portal/conteudo,43298" class="button"><strong>Consulta Declaração de Número</strong></a>
+
+      <h1>Certidões Negativas</h1>
+      <a href="https://iptu.uberaba.mg.gov.br/tributos/cnd/cnd.php" class="button"><strong>Certidão Negativa Uberaba</strong></a>
+      <a href="https://solucoes.receita.fazenda.gov.br/servicos/certidaointernet/pj/emitir" class="button"><strong>Certidão Negativa Federal</strong></a>
+      <a href="https://www2.fazenda.mg.gov.br/sol/ctrl/SOL/CDT/SERVICO_829?ACAO=INICIAR" class="button"><strong>Certidão Negativa Estadual-MG</strong></a>
+      <a href="https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf" class="button"><strong>Consulta Regularidade Empregador</strong></a>
+
+      <h1>Emissor de Nota Fiscal MEI</h1>
+      <a href="https://www.nfse.gov.br/EmissorNacional/Login?ReturnUrl=%2fEmissorNacional" class="button"><strong>Emissor de Nota Fiscal de Serviço MEI</strong></a>
+
+      <h1>Consultoria MEI</h1>
+      <a href="https://wa.me/5534988507154?text=Ol%C3%A1+obrigado+por+entrar+em+contato%2C+estou+a+disposi%C3%A7%C3%A3o+para+prestar+servi%C3%A7os+para+o+Microempreendedor+Individual" class="button"><strong>Preciso de ajuda profissional</strong></a>
+    </div>
+  </body>
 </html>
