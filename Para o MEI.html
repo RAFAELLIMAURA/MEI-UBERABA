@@ -108,3 +108,81 @@
     </div>
   </body>
 </html>
+
+  <DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento via Pix</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f4;
+      }
+
+      .container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      .pix-key {
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
+        margin: 10px 0;
+      }
+
+      .button {
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        background-color: #00a859;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+      }
+
+      .button:hover {
+        background-color: #008f4e;
+      }
+
+      .message {
+        margin-top: 10px;
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Faça seu pagamento via Pix</h1>
+      <p class="pix-key" id="pixKey">c4a3d6ab-df3c-4ea7-a654-6d90bc8cb27f</p> <!-- Chave Pix aqui -->
+
+      <button class="button" onclick="copyPixKey()">c4a3d6ab-df3c-4ea7-a654-6d90bc8cb27f
+</button>
+
+      <p class="message" id="copyMessage"></p>
+    </div>
+
+    <script>
+      function copyPixKey() {
+        var pixKey = document.getElementById("pixKey").innerText;
+        var tempInput = document.createElement("input");
+        tempInput.value = pixKey;
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        document.execCommand("copy");
+        document.body.removeChild(tempInput);
+        document.getElementById("copyMessage").innerText = "Chave Pix copiada!";
+      }
+    </script>
+  </body>
+</html>
