@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html>
   <head>
   <title>Ajuda ao Microempreendedor Individual</title>
