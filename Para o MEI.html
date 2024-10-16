@@ -67,7 +67,7 @@
 
   <body>
     <div class="container">
-      <h1>Ajuda ao Microempreendedor Individual</h1>
+      <h1>Auxilio ao Microempreendedor Individual</h1>
 
       <!-- Container dos botões para organizar dois por linha -->
       <div class="button-container">
