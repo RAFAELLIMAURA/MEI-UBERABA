@@ -103,7 +103,7 @@
 
       <h1> Serviço de Consultoria MEI</h1>
       <div class="button-container">
-        <a href="https://wa.me/5534988507154?text=Ol%C3%A1+obrigado+por+entrar+em+contato%2C+estou+a+disposi%C3%A7%C3%A3o+para+prestar+servi%C3%A7os+para+o+Microempreendedor+Individual" class="button"><strong>Preciso de ajuda profissional</strong></a>
+        <a href="https://wa.me/5534988507154?text=Ol%C3%A1+Olá+preciso+de+auxilio+com+minha+empresa" class="button"><strong>Preciso de ajuda profissional</strong></a>
       </div>
     </div>
 </body>
