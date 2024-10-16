@@ -104,10 +104,13 @@
       <h1> Serviço de Consultoria MEI</h1>
       <div class="button-container">
         <a href="https://wa.me/5534988507154?text=Ol%C3%A1+preciso+de+auxilio+com+minha+empresa" class="button"><strong>Preciso de ajuda profissional</strong></a>
-           <h1>Contribua com nossa pagina</h1>
+            <p>Serviço de Consultoria MEI</p>
+      <div class="button-container">
+        <a href="https://wa.me/5534988507154?text=Ol%C3%A1+preciso+de+auxilio+com+minha+empresa" class="button"><strong>Preciso de ajuda profissional</strong></a>
+        <h1>Contribua com nossa pagina</h1>
       <p class="pix-key" id="pixKey">c4a3d6ab-df3c-4ea7-a654-6d90bc8cb27f
 </p> <!-- Chave Pix aqui -->
-      <button class="button" onclick="copyPixKey()">Copiar Chave Pix</button>
+      <button class="button" onclick="copyPixKey()">c4a3d6ab-df3c-4ea7-a654-6d90bc8cb27f</button>
       <p class="message" id="copyMessage"></p>
       </div>
     </div>
