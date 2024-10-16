@@ -76,7 +76,7 @@
         <a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/atualizacao-cadastral-de-mei" class="button"><strong>Alteração do MEI</strong></a>
         <a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/Identificacao" class="button"><strong>Emissão do DAS</strong></a>
         <a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/dasnsimei.app/Identificacao" class="button"><strong>Declaração do Imposto MEI</strong></a>
-        <a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=19" class="button"><strong>Negociação MEI</strong></a>
+        <a href="http://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=19" <span>class="button"><strong>Negociação MEI</strong></span>
       </div>
       
  <h1>Serviço de Consultoria</h1>
