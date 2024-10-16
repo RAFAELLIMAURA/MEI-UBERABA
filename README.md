@@ -109,7 +109,7 @@
   </body>
 </html>
 
-  <DOCTYPE html>
+ <DOCTYPE html>
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -163,8 +163,8 @@
   </head>
   <body>
     <div class="container">
-      <h1>Faça seu pagamento via Pix</h1>
-      <p class="pix-key" id="pixKey">c4a3d6ab-df3c-4ea7-a654-6d90bc8cb27f</p> <!-- Chave Pix aqui -->
+      <h1>Faça sua contribuição via Pix</h1>
+      <p class="pix-key" id="pixKey"></p> <!-- Chave Pix aqui -->
 
       <button class="button" onclick="copyPixKey()">c4a3d6ab-df3c-4ea7-a654-6d90bc8cb27f
 </button>
