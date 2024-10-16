@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      min-height: 100vh;
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
@@ -26,31 +26,30 @@
       padding: 20px;
       border-radius: 20px;
       width: 90%;
-      max-width: 600px;
+      max-width: 400px; /* Limita a largura para caber bem em dispositivos móveis */
       margin: 20px;
     }
 
-    /* Estilos para o layout dos botões */
+    /* Estilos para os botões */
     .button-container {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between; /* Distribui os botões */
+      justify-content: center; /* Centraliza os botões */
       gap: 10px; /* Espaçamento entre botões */
-      margin-bottom: 20px;
     }
 
     .button {
       text-decoration: none;
       font-weight: bold;
-      color: rgb(255, 255, 255);
+      color: white;
       background-color: rgb(13, 0, 255);
-      border: none;
-      padding: 10px;
-      border-radius: 10px;
+      padding: 8px 10px; /* Reduz o padding para diminuir os botões */
+      border-radius: 8px;
       cursor: pointer;
       transition: background-color 0.3s ease-in-out;
-      width: 48%; /* Largura para caber dois botões lado a lado */
+      width: 48%; /* Ajusta a largura para caber dois botões lado a lado */
       box-sizing: border-box;
+      font-size: 12px; /* Reduz o tamanho da fonte */
     }
 
     .button:hover {
@@ -58,9 +57,10 @@
       color: rgb(26, 255, 0);
     }
 
+    /* Ajustes para telas menores */
     @media (max-width: 768px) {
       .button {
-        width: 100%; /* Empilha os botões em telas menores */
+        width: 45%; /* Mantém dois botões lado a lado em telas menores */
       }
     }
   </style>
