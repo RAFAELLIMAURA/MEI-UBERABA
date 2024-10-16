@@ -105,8 +105,6 @@
       <div class="button-container">
         <a href="https://wa.me/5534988507154?text=Ol%C3%A1+preciso+de+auxilio+com+minha+empresa" class="button"><strong>Preciso de ajuda profissional</strong></a>
             <p>Serviço de Consultoria MEI</p>
-      <div class="button-container">
-        <a href="https://wa.me/5534988507154?text=Ol%C3%A1+preciso+de+auxilio+com+minha+empresa" class="button"><strong>Preciso de ajuda profissional</strong></a>
-</div>
-</body>
+     </div>
+    </body>
 </html>
