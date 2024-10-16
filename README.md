@@ -87,8 +87,8 @@
       <h1>Regularização Município de Uberaba</h1>
 
       <div class="button-container">
-        <a href="http://www.uberaba.mg.gov.br/consultaPrevia/pages/page-login.xhtml?uri=/pages/page-main.xhtml" class="button"><strong>Consulta Prévia Uberaba  Entre em contato </strong></a>
-        <a href="https://app.codiub.com.br/alvaras/pages/page-login.xhtml" class="button"><strong>Emissão do Alvará Uberaba  Entre em contato </strong></a>
+        <a href="http://www.uberaba.mg.gov.br/consultaPrevia/pages/page-login.xhtml?uri=/pages/page-main.xhtml" class="button"><strong>Consulta Prévia Uberaba </strong></a>
+        <a href="https://app.codiub.com.br/alvaras/pages/page-login.xhtml" class="button"><strong>Emissão do Alvará Uberaba  </strong></a>
         <a href="http://www.uberaba.mg.gov.br/portal/conteudo,43298" class="button"><strong>Consulta Declaração de Número</strong></a>
       </div>
 
