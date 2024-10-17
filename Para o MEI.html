@@ -5,7 +5,7 @@
     <title>Auxilio ao Microempreendedor Individual</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="script.js"></script>
-    <meta name="google-site-verification" content="LrpyEoGnp64mjQ3EhlUZ0CF8ld4xoMERuVbkHMCbVCw" />
+    <meta name="google-site-verification" content="LrpyEoGnp64mjQ3EhlUZ0CF8ld4xoMERuVbkHMCbVCw">
   </head>
   <style>
     body {
