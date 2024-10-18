@@ -107,3 +107,29 @@
       </div>
 
     
+ <DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa de Texto Centralizada</title>
+    <style>
+        /* Estilo para centralizar a caixa de texto */
+        .caixa-texto {
+            width: 50%; /* Largura da caixa de texto */
+            margin: 0 auto; /* Centraliza horizontalmente */
+            padding: 20px;
+            border: 2px solid black; /* Borda padrão */
+            border-right: none; /* Remove a borda do lado direito */
+            text-align: center; /* Centraliza o texto */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="caixa-texto">
+        Esta é uma caixa de texto com borda transparente no lado direito e centralizada na página.
+    </div>
+
+</body>
+</html>
