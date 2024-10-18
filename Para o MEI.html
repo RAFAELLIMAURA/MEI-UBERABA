@@ -1,12 +1,12 @@
 <DOCTYPE html>
 <html>
   <head>
+    <meta name="google-site-verification" content="LrpyEoGnp64mjQ3EhlUZ0CF8ld4xoMERuVbkHMCbVCw" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auxilio ao Microempreendedor Individual</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="script.js"></script>
-    <meta name="google-site-verification" content="LrpyEoGnp64mjQ3EhlUZ0CF8ld4xoMERuVbkHMCbVCw">
-  </head>
+     </head>
   <style>
     body {
       background-color: rgb(0, 255, 68);
