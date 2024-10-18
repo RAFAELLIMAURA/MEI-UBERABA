@@ -107,4 +107,4 @@
         <a href="https://www.nfse.gov.br/EmissorNacional/Login?ReturnUrl=%2fEmissorNacional" class="button"><strong>Emissor de Nota Fiscal de Serviço MEI </strong></a>
       </div>
 
-    google-site-verification: google979d55c2d1c78748.html
+    
