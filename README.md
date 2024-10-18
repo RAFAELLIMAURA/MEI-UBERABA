@@ -5,21 +5,7 @@
     <title>Auxilio ao Microempreendedor Individual</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="script.js"></script>
-     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caixa de Texto</title>
-    <style>
-        /* Estilo para centralizar a caixa de texto */
-        .caixa-texto {
-            width: 50%; /* Largura da caixa de texto */
-            margin: 0 auto; /* Centraliza a caixa horizontalmente */
-            padding: 20px;
-            border: 2px solid black; /* Borda padrão */
-            border-right: none; /* Remove a borda do lado direito */
-            text-align: justify; /* Justifica o texto à esquerda */
-        }
-    </style>
-</head>
+  </head>
   <style>
     body {
       background-color: rgb(0, 255, 68);
