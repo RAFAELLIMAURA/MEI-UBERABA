@@ -107,3 +107,45 @@
       </div>
 
     
+import pandas as pd
+
+# Planilha DRE
+data = {
+    "Descrição": [
+        "Receita Bruta de Vendas e Serviços", 
+        "(-) Deduções de Vendas", 
+        "(-) Abatimentos", 
+        "(-) Impostos", 
+        "= Receita Líquida de Vendas e Serviços", 
+        "(-) Custo das Mercadorias e Serviços Vendidos", 
+        "= Lucro Bruto", 
+        "(-) Despesas com Vendas", 
+        "(-) Despesas Financeiras", 
+        "(-) Despesas Gerais e Administrativas", 
+        "(-) Outras Despesas Operacionais", 
+        "= Lucro ou Prejuízo Operacional", 
+        "(+) Outras Receitas", 
+        "(-) Outras Despesas", 
+        "= Resultado Antes do IR e CSLL", 
+        "(-) Provisão para IR", 
+        "(-) Provisão para CSLL", 
+        "= Lucro ou Prejuízo Líquido do Exercício", 
+        "Participações", 
+        "- Debêntures", 
+        "- Empregados", 
+        "- Administradores", 
+        "- Instituições ou Fundos de Assistência", 
+        "= Lucro ou Prejuízo Líquido Final", 
+        "Lucro por Ação (se aplicável)"
+    ],
+    "Valor": [""] * 25  # Coluna de valores vazia para preenchimento
+}
+
+# Criando o DataFrame
+df = pd.DataFrame(data)
+
+# Salvando o DataFrame como um arquivo .ods (LibreOffice)
+file_path = "/mnt/data/DRE_LibreOffice.ods"
+df.to_excel(file_path, engine='odf', index=False)
+
+file_path
